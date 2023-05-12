@@ -1,0 +1,102 @@
+.navegacao{
+  color: #ffffff;
+  background-color: #000000;
+  font-size: 25px;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navegacao ul{
+  list-style-type: none;
+  display: flex;
+}
+.navegacao ul li{
+padding-right: 50px;
+
+}
+
+.navegacao ul li:hover{
+  color: #ffd800;
+  cursor: pointer;
+}
+
+.banner{
+  background-image: url(barbearia.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 70vh;
+}
+
+.container{
+  background-color:#000000;
+  color: #ffffff;
+  height: 20vh;
+}
+
+.container .containerTexto h1{
+margin-top: 0;
+font-size: 35px;
+padding-top: 35px;
+padding-left: 60px;
+}
+
+
+.unidades{
+  background-color: #ffd800;
+  height:100vh;
+  display: flex;
+}
+
+button{
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 15px;    
+  }
+
+  button:hover{
+  color: #ffffff;
+  background-color: #000000;
+  }
+
+
+.unidades img{
+  width: 30%;
+  height: 90%;
+}
+.unidadeTexto p{
+  font-size: 40px;
+  padding-top: 50px;
+}
+
+.unidadeTexto ol{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+.unidadeTexto{
+  margin-left: 50px;
+  margin-top: 0px;
+}
+p{
+  color:black
+}
+
+.img{
+  width: 100%;
+}
+
+footer{
+  width: 80vw;
+  margin: 0 auto;
+  background-color: var(--background-footer);
+  padding-top: 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
