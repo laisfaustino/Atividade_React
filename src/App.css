@@ -92,7 +92,7 @@ p{
 footer{
   width: 80vw;
   margin: 0 auto;
-  background-color: var(--background-footer);
+  background-color: black;
   padding-top: 1rem;
   margin-bottom: 2rem;
   display: flex;
